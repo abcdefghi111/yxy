@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+    <title>淘宝移动端</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="../PMD/index.js"></script>
+    <!-- <script>
+        window.onload = function() {
+            var a=1;
+            const image = $("#to").$(".image").length;
+            console.log(image);
+            $("#to").on("touchstart", function(e) {
+                e.preventDefault();
+                startX = e.originalEvent.changedTouches[0].pageX,
+                    startY = e.originalEvent.changedTouches[0].pageY;
+            });
+            $("#to").on("touchmove", function(e) {
+                e.preventDefault();
+                moveEndX = e.originalEvent.changedTouches[0].pageX,
+                    moveEndY = e.originalEvent.changedTouches[0].pageY,
+                    X = moveEndX - startX,
+                    Y = moveEndY - startY;
+                if ((X) > -(Y) && X > 0) {
+                    // console.log("left on right")
+                    if(a!=1){
+                        left+=365+'px'
+                    }
+                    a++;
+                }
+                if (-(X) > (Y) && X < 0) {
+                    // console.log("right on left")
+                    if(a!=3){
+                        left-=365+'px'
+                    }
+                    a--;
+                }
+            })
+        }
+    </script> -->
+</head>
+
+<body>
+    <section id="go">
+        <div id="to">
+            <img src="../PMD/img/1.jpg" alt="" class="image" />
+            <img src="../PMD/img/2.jpg" alt="" class="image" />
+            <img src="../PMD/img/3.jpg" alt="" class="image" />
+            <div class="image arrow">
+                <span class="leftarrow">➤
+                </span>
+                <span class="leftext">继续滑动查看图文详情</span>
+            </div>
+        </div>
+    </section>
+    <div class="number">
+        <span id="one"></span>
+        <span>/</span>
+        <span id="imge"></span>
+    </div>
+    <section class="do">
+        <h2><span>￥</span>45</h2>
+        <div class="name">
+            <h4>heymaymay 韩国ins复古玫瑰金方糖手表 漆皮超细表带 精致小巧~</h4>
+            <div class="chare">
+                <img src="../PMD/img/分享.png" alt="" />
+                <span>分享</span>
+            </div>
+        </div>
+        <div class="lan">
+            <div><img src="../PMD/img/推荐.png" alt="" /><span>推荐</span></div>
+            <div><img src="../PMD/img/帮我选.png" alt="" /><span>帮我选</span></div>
+        </div>
+    </section>
+    <section class="yo">
+        <div class="column">
+            <div>
+                <span class="title">发货</span>
+                <img class="columnimg" src="../PMD/img/地址.png" alt="" />
+                <span class="address">浙江杭州</span>
+                <span>快递：10.00元</span>
+            </div>
+            <div>
+                <span class="right">月销326</span>
+            </div>
+        </div>
+        <div class="column">
+            <div>
+                <span class="title">活动</span>
+                <img class="hong" src="../PMD/img/红包.png" alt="" />
+                <span>红包省钱卡，开卡本单立减！</span>
+            </div>
+            <div></div>
+            <span class="right">></span></div>
+        </div>
+    </section>
+    <section class="yo">
+        <div class="column">
+            <div>
+                <span class="title">服务</span>
+                <span>付款后15天内发货·7天无理由</span>
+            </div>
+            <div>
+                <span class="right">></span>
+            </div>
+        </div>
+        <div class="column">
+            <div>
+                <span class="title">选择</span>
+                <span>选择  颜色分类</span>
+            </div>
+            <div></div>
+            <span class="right">></span></div>
+        </div>
+        <div class="column">
+            <div>
+                <span class="title">参数</span>
+                <span>品牌  型号...</span>
+            </div>
+            <div></div>
+            <span class="right">></span></div>
+        </div>
+    </section>
+    <section class="yo">
+        <div class="column">
+            <h4 class="fontwidth">宝贝评价(419)</h4>
+            <div class="lookall">
+                <span>查看全部</span>
+                <span>></span></div>
+        </div>
+        <div class="users">
+            <div><img src="../PMD/img/头像.png" alt=""><span>小小者</span> </div>
+            <div><span>小手表非常精致，很好搭配衣服，包包也是你们的哈！</span></div>
+        </div>
+        <div class="column">
+            <h4 class="fontwidth">问大家</h4>
+            <div class="lookall">
+                <span>查看全部</span>
+                <span>></span></div>
+        </div>
+        <div class="column">
+            <div>
+                <img src="../PMD/img/问.png" class="wen" alt="">
+                <span>原版是什么啊</span>
+            </div>
+            <div>
+                <span class="right">5个回答</span>
+            </div>
+        </div>
+        <div class="column">
+            <div>
+                <img src="../PMD/img/问.png" class="wen" alt="">
+                <span>是正品吗？</span>
+            </div>
+            <div>
+                <span class="right">3个回答</span>
+            </div>
+        </div>
+    </section>
+    <section class="shop">
+        <div class="shoppu">
+            <div class="tx">
+                <img class="shopimg" src="../PMD/img/头像.png" alt="">
+                <div class="bt">
+                    <h5>heymaymay</h5>
+                    <img class="shopimages" src="../PMD/img/勋章.png" alt="">
+                    <img class="shopimage" src="../PMD/img/皇冠.png" alt="">
+                    <img class="shopimage" src="../PMD/img/皇冠.png" alt="">
+                    <img class="shopimage" src="../PMD/img/皇冠.png" alt=""></div>
+            </div>
+            <div style="display: flex;">
+                <div class="allbaby"><span>全部宝贝</span></div>
+                <div class="inshop"><span>进店逛逛</span></div>
+            </div>
+        </div>
+        <div class="innbby">
+            <div class="y">
+                <span class="gray">宝贝描述</span>
+                <span class="aquam">4.8</span>
+                <span class="aquam">低</span>
+            </div>
+            <div class="r">
+                <span class="gray">卖家服务</span>
+                <span class="gray">4.8</span>
+                <span class="gray">平</span>
+            </div>
+            <div class="y">
+                <span class="gray">物流服务</span>
+                <span class="aquam">4.8</span>
+                <span class="aquam">低</span>
+            </div>
+        </div>
+
+    </section>
+    <section class="detail">
+        <img class="ximg" src="../PMD/img/x.jpg" alt="">
+        <img class="ximg" src="../PMD/img/x1.jpg" alt="">
+        <img class="ximg" src="../PMD/img/x2.jpg" alt="">
+        <img class="ximg" src="../PMD/img/x3.jpg" alt="">
+        <img class="ximg" src="../PMD/img/x4.jpg" alt="">
+    </section>
+    <div id="topend">⇧</div>
+    <div class="di"></div>
+    <footer class="footer">
+        <div class="item">
+            <img src="../PMD/img/店铺.png" alt="" /><span>店铺</span>
+        </div>
+        <div class="item">
+            <img src="../PMD/img/客服.png" alt="" /><span>客服</span>
+        </div>
+        <div class="item">
+            <img src="../PMD/img/收藏.png" alt="" /><span>收藏</span>
+        </div>
+        <div class="shopping">加入购物车</div>
+        <div class="goshopping">立即购买</div>
+    </footer>
+</body>
+
+</html>
